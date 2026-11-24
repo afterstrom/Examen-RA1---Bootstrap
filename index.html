@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plantilla Base - Restaurant Sakura Badalona</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Sakura badalona</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#">Inici</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Qui som</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Especialitats</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Reserves</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-secondary text-white text-center py-4">
+        <div class="container">
+            <h1>Restaurant Sakura | Autèntica Cuina Japonesa - Badalona</h1>
+        </div>
+    </header>
+
+    <section class="container my-4">
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img-20261124T072218Z-1-001/img/Restaurant_1.jpg" class="d-block w-100" style="height: 350px; object-fit: cover;" alt="Imatge 1">
+                </div>
+                 <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img-20261124T072218Z-1-001/img/cocinero_haciendo_sushi.jpg" class="d-block w-100" style="height: 350px; object-fit: cover;" alt="Imatge 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="img-20261124T072218Z-1-001/img/niguiris.jpg" class="d-block w-100" style="height: 350px; object-fit: cover;" alt="Imatge 2">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </section>
+
+    <section id="especialitats" class="container my-5">
+        <h2 class="text-center mb-4">Les Nostres Especialitats</h2>
+        <div class="row g-4">
+            <!-- Card 1 -->
+            <div class="col-md-6">
+                <div class="card h-100">
+                    <img src="img/card1.jpg" class="card-img-top" style="height: 180px; object-fit: cover;" alt="Plat 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Especialitat 1</h5>
+                        <p class="card-text">Descripció breu del plat.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col-md-6">
+                <div class="card h-100">
+                    <img src="img/card2.jpg" class="card-img-top" style="height: 180px; object-fit: cover;" alt="Plat 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Especialitat 2</h5>
+                        <p class="card-text">Descripció breu del plat.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="reserves" class="container my-5">
+        <h2 class="text-center mb-4">Formulari de Reserva</h2>
+        <!-- Espai per al missatge de confirmació de JS -->
+        <div id="missatgeConfirmacio"></div>
+        
+        <form id="formulariReserva">
+            <!-- Afegir aquí els camps: Nom, Cognoms, Telèfon, Correu, Data, Consulta i Botó -->
+        </form>
+    </section>
+
+    
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <p class="mb-0">Peu de pàgina base</p>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Enllaçar aquí el fitxer js/script.js -->
+</body>
+</html>
