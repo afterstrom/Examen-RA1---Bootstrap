@@ -20,3 +20,6 @@ body {
 .dropdown-menu-dark .dropdown-item:hover {
     background-color: #dc3545;
 }
+.h1 h2 h3 h4 h5 h6 {
+    color: #dc3545;
+}
